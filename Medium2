@@ -1,0 +1,21 @@
+#include <stdio.h>
+void main() 
+{
+    int a,b;
+    int c,d, sum;
+    printf("Enter the first number: ");
+    scanf("%d", &a);
+    printf("Enter the second number: ");
+    scanf("%d", &b);
+    c = a % 10;
+    d= b% 10;
+    sum= c + d;
+    if (sum% 2 == 0)
+{
+        printf("Even.\n");
+    } else {
+        printf("Odd.\n");
+    }
+
+    return 0;
+}
